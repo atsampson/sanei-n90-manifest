@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/allwinner-dev-team/" name="allwinner" />
+  <remote fetch="ssh://git@github.com/atsampson/" name="ats-private" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project name="android_external_cedarx" path="external/cedarx" remote="allwinner" revision="jellybean" />
+  <project name="android_hardware_realtek" path="hardware/realtek" remote="allwinner" revision="jellybean" />
+  <project name="linux-allwinner" path="kernel/allwinner/common" remote="allwinner" revision="allwinner-3.0" />
+  <project name="android_frameworks_av" path="frameworks/av" remote="allwinner" revision="allwinner-jb" />
+  <project name="android_frameworks_native" path="frameworks/native" remote="allwinner" revision="allwinner-jb" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="allwinner" revision="allwinner-jb" />
+  <project name="android_device_allwinner_common" path="device/allwinner/common" remote="ats-private" revision="jellybean" />
+  <project name="android_device_allwinner_zatab" path="device/allwinner/zatab" remote="allwinner" revision="jellybean" />
+  <project name="android_device_allwinner_n90" path="device/allwinner/n90" remote="ats-private" revision="jellybean" />
+  <project name="proprietary_vendor_allwinner" path="vendor/allwinner" remote="allwinner" revision="jellybean" />
+</manifest>
